@@ -1,0 +1,41 @@
+text.usetex: True
+text.latex.preamble: \usepackage{amsmath}\usepackage{amssymb}\usepackage{lmodern}
+
+# Font properties
+font.family: serif
+font.serif: Computer Modern
+font.size: 12
+
+
+figure.figsize: 6.5, 3.5
+figure.dpi: 148
+
+axes.titlesize: medium
+axes.labelpad: 5
+axes.xmargin: 0
+axes.ymargin: 0
+
+# Ticks
+xtick.direction: in
+ytick.direction: in
+xtick.top: True
+ytick.right: True
+xtick.minor.visible: True
+ytick.minor.visible: True
+xtick.major.size: 5
+ytick.major.size: 5
+
+# Color cycle (Perc5 palette) - FIXED SYNTAX
+axes.prop_cycle: cycler('color', ['340498', '7e03a7', 'b83289', 'de6063', 'f8983d'])
+
+# Legend
+legend.fontsize: 7
+legend.frameon: True
+legend.framealpha: 0.8
+legend.loc: best
+
+# Line properties
+lines.linewidth: 1
+lines.marker: none  # No markers
+lines.markersize: 5
+lines.markeredgewidth: 0
